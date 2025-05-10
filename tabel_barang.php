@@ -85,6 +85,8 @@ try {
                             <td>
                                 <a href="edit.php?id=<?= $row['id'] ?>" class="btn btn-warning btn-sm">Edit</a>
                                 <a href="javascript:void(0);" onclick="konfirmasiHapus(<?= $row['id'] ?>)" class="btn btn-danger btn-sm">Hapus</a>
+                                <a href="pakai_barang.php?id=<?= $row['id'] ?>" class="btn btn-secondary btn-sm">Pakai</a>
+                                <a href="tambah_stok.php?id=<?= $row['id'] ?>" class="btn btn-info btn-sm">Tambah Stok</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
